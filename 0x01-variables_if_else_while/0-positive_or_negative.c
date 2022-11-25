@@ -16,9 +16,7 @@
 
  */
 
-  
-
-int main(void)
+  int main(void)
 
 {
 
@@ -30,23 +28,17 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	if(n>0) {
+	if (n > 0) {
 
                            print (“%d is positive\n”, n);
 
-              }
-
-                else if (n<0) {
+               else 
 
                            print (“%d is negative\n”, n);
 
-              }
-
-                else if (n=0) {
+              else if (n == 0) 
 
                             print (“%d is zero\n”, n);
-
-             }
 
              return (0);
 
