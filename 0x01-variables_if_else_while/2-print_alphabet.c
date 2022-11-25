@@ -8,14 +8,12 @@
  */
 int main()
 {
-	int n;
-	char a;
+	char c;
 
-        a = n; 
-
-	for(n=1;n<=28;n++)
-	{
-		putchar("%c\n", a);
+        c = 'a'; 
+        while
+		(c <= 'z'){
+		putchar(c);
 	}
 	return(0);
 }
